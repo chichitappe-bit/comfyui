@@ -1,0 +1,63 @@
+# URL,DEST,TYPE,ORIGIN_URL,COMMENTS
+
+# =================================================================
+# Checkpoints Stable Diffusion
+# =================================================================
+https://civitai.com/api/download/models/1759168?type=Model&format=SafeTensor&size=full&fp=fp16&token=__CIVITAI__,/workspace/stable-diffusion-webui/models/Stable-diffusion/juggernaut_xl.safetensors
+https://civitai.com/api/download/models/501240?type=Model&format=SafeTensor&size=pruned&fp=fp16&token=__CIVITAI__,/workspace/stable-diffusion-webui/models/Stable-diffusion/realistic_vision.safetensors
+
+
+# =================================================================
+#  Controlnet Stable Diffusion
+# =================================================================
+https://huggingface.co/lllyasviel/ControlNet/resolve/main/models/control_sd15_canny.pth?download=true&token=__HF__,/workspace/stable-diffusion-webui/extensions/sd-webui-controlnet/models/control_sd15_canny.pth
+https://huggingface.co/lllyasviel/ControlNet/resolve/main/models/control_sd15_depth.pth?download=true&token=__HF__,/workspace/stable-diffusion-webui/extensions/sd-webui-controlnet/models/control_sd15_depth.pth
+https://huggingface.co/lllyasviel/ControlNet/resolve/main/models/control_sd15_hed.pth?download=true&token=__HF__,/workspace/stable-diffusion-webui/extensions/sd-webui-controlnet/models/control_sd15_hed.pth
+https://huggingface.co/lllyasviel/ControlNet/resolve/main/models/control_sd15_mlsd.pth?download=true&token=__HF__,/workspace/stable-diffusion-webui/extensions/sd-webui-controlnet/models/control_sd15_mlsd.pth
+https://huggingface.co/lllyasviel/ControlNet/resolve/main/models/control_sd15_normal.pth?download=true&token=__HF__,/workspace/stable-diffusion-webui/extensions/sd-webui-controlnet/models/control_sd15_normal.pth
+https://huggingface.co/lllyasviel/ControlNet/resolve/main/models/control_sd15_openpose.pth?download=true&token=__HF__,/workspace/stable-diffusion-webui/extensions/sd-webui-controlnet/models/control_sd15_openpose.pth
+https://huggingface.co/lllyasviel/ControlNet/resolve/main/models/control_sd15_scribble.pth?download=true&token=__HF__,/workspace/stable-diffusion-webui/extensions/sd-webui-controlnet/models/control_sd15_scribble.pth
+https://huggingface.co/lllyasviel/ControlNet/resolve/main/models/control_sd15_seg.pth?download=true&token=__HF__,/workspace/stable-diffusion-webui/extensions/sd-webui-controlnet/models/control_sd15_seg.pth
+https://huggingface.co/xinsir/controlnet-union-sdxl-1.0/resolve/main/diffusion_pytorch_model_promax.safetensors?download=true&token=__HF__,/workspace/ComfyUI/models/ControlNet/diffusion_pytorch_model_promax.safetensors
+
+
+
+
+
+# =================================================================
+#  Checkpoints ComfyUI
+# =================================================================
+https://huggingface.co/Comfy-Org/Wan_2.2_ComfyUI_Repackaged/resolve/main/split_files/diffusion_models/wan2.2_i2v_high_noise_14B_fp8_scaled.safetensors?download=true&token=__HF__,/workspace/ComfyUI/models/diffusion_models/wan2.2_i2v_high_noise_14B_fp8_scaled.safetensors
+https://huggingface.co/Comfy-Org/Wan_2.2_ComfyUI_Repackaged/resolve/main/split_files/diffusion_models/wan2.2_i2v_low_noise_14B_fp8_scaled.safetensors?download=true&token=__HF__,/workspace/ComfyUI/models/diffusion_models/wan2.2_i2v_low_noise_14B_fp8_scaled.safetensors
+https://huggingface.co/Comfy-Org/Wan_2.2_ComfyUI_Repackaged/resolve/main/split_files/diffusion_models/wan2.2_i2v_high_noise_14B_fp16.safetensors?download=true&token=__HF__,/workspace/ComfyUI/models/diffusion_models/wan2.2_i2v_high_noise_14B_fp16.safetensors
+https://huggingface.co/Comfy-Org/Wan_2.2_ComfyUI_Repackaged/resolve/main/split_files/diffusion_models/wan2.2_i2v_low_noise_14B_fp16.safetensors?download=true&token=__HF__,/workspace/ComfyUI/models/diffusion_models/wan2.2_i2v_low_noise_14B_fp16.safetensors
+https://huggingface.co/Comfy-Org/Wan_2.2_ComfyUI_Repackaged/resolve/main/split_files/loras/wan2.2_i2v_lightx2v_4steps_lora_v1_low_noise.safetensors?download=true&token=__HF__,/workspace/ComfyUI/models/loras/wan2.2_i2v_lightx2v_4steps_lora_v1_high_noise.safetensors
+https://huggingface.co/Comfy-Org/Wan_2.2_ComfyUI_Repackaged/resolve/main/split_files/loras/wan2.2_t2v_lightx2v_4steps_lora_v1.1_low_noise.safetensors?download=true&token=__HF__,/workspace/ComfyUI/models/loras/wan2.2_t2v_lightx2v_4steps_lora_v1.1_low_noise.safetensors
+https://huggingface.co/Comfy-Org/Wan_2.2_ComfyUI_Repackaged/resolve/main/split_files/loras/wan2.2_i2v_lightx2v_4steps_lora_v1_low_noise.safetensors?download=true&token=__HF__,/workspace/ComfyUI/models/loras/wan2.2_i2v_lightx2v_4steps_lora_v1_low_noise.safetensors
+https://huggingface.co/Comfy-Org/Wan_2.2_ComfyUI_Repackaged/resolve/main/split_files/text_encoders/umt5_xxl_fp8_e4m3fn_scaled.safetensors?download=true&token=__HF__,/workspace/ComfyUI/models/text_encoders/umt5_xxl_fp8_e4m3fn_scaled.safetensors
+https://huggingface.co/Comfy-Org/Wan_2.2_ComfyUI_Repackaged/resolve/main/split_files/vae/wan_2.1_vae.safetensors?download=true&token=__HF__,/workspace/ComfyUI/models/vae/wan_2.1_vae.safetensors
+https://huggingface.co/lllyasviel/sd-controlnet-openpose/resolve/main/diffusion_pytorch_model.safetensors?download=true&token=__HF__,/workspace/stable-diffusion-webui/extensions/sd-webui-controlnet/models/diffusion_pytorch_model.safetensors
+https://huggingface.co/Comfy-Org/Wan_2.2_ComfyUI_Repackaged/resolve/main/split_files/vae/wan2.2_vae.safetensors?download=true&token=__HF__,/workspace/ComfyUI/models/vae/wan2.2_vae.safetensors
+https://huggingface.co/lllyasviel/sd-controlnet-openpose/resolve/main/diffusion_pytorch_model.safetensors?download=true&token=__HF__,/workspace/stable-diffusion-webui/extensions/sd-webui-controlnet/models/diffusion_pytorch_model.safetensors
+https://huggingface.co/stabilityai/stable-diffusion-xl-base-1.0/resolve/main/sd_xl_base_1.0.safetensors?download=true&token=__HF__,/workspace/ComfyUI/models/checkpoints/sd_xl_base_1.0.safetensors
+https://huggingface.co/stabilityai/stable-diffusion-xl-refiner-1.0/resolve/main/sd_xl_refiner_1.0.safetensors?download=true&token=__HF__,/workspace/ComfyUI/models/checkpoints/sd_xl_refiner_1.0.safetensors
+https://huggingface.co/Comfy-Org/Wan_2.1_ComfyUI_repackaged/resolve/main/split_files/text_encoders/umt5_xxl_fp16.safetensors?download=true&token=__HF__,/workspace/ComfyUI/models/text_encoders/umt5_xxl_fp16.safetensors
+https://huggingface.co/Kijai/WanVideo_comfy/resolve/main/Wan2_1_VAE_fp32.safetensors?download=true&token=__HF__,/workspace/ComfyUI/models/vae/Wan2_1_VAE_fp32.safetensors
+https://huggingface.co/Kijai/WanVideo_comfy/resolve/main/umt5-xxl-enc-bf16.safetensors?download=true&token=__HF__,/workspace/ComfyUI/models/text_encoders/umt5-xxl-enc-bf16.safetensors
+https://huggingface.co/h94/IP-Adapter/resolve/main/sdxl_models/ip-adapter_sdxl.safetensors?download=true&token=__HF__,/workspace/ComfyUI/models/ipadapter/ip-adapter_sdxl.safetensors
+https://huggingface.co/h94/IP-Adapter/resolve/main/models/ip-adapter-plus_sd15.safetensors?download=true&token=__HF__,/workspace/ComfyUI/models/ipadapter/ip-adapter-plus_sd15.safetensors
+https://huggingface.co/h94/IP-Adapter/resolve/main/models/ip-adapter-full-face_sd15.safetensors?download=true&token=__HF__,/workspace/ComfyUI/models/ipadapter/ip-adapter-full-face_sd15.safetensors
+https://huggingface.co/Comfy-Org/Wan_2.1_ComfyUI_repackaged/resolve/main/split_files/clip_vision/clip_vision_h.safetensors?download=true&token=__HF__,/workspace/ComfyUI/models/clip_vision/clip_vision_h.safetensors
+
+
+
+
+
+
+# =================================================================
+#  Upscalers ComfyUI
+# =================================================================
+https://huggingface.co/ai-forever/Real-ESRGAN/resolve/main/RealESRGAN_x2.pth?download=true&token=__CIVITAI__,/workspace/ComfyUI/models/upscale_models/RealESRGAN_x2.pth
+https://huggingface.co/ai-forever/Real-ESRGAN/resolve/main/RealESRGAN_x4.pth?download=true&token=__CIVITAI__,/workspace/ComfyUI/models/upscale_models/RealESRGAN_x4.pth
+https://huggingface.co/ai-forever/Real-ESRGAN/resolve/main/RealESRGAN_x8.pth?download=true&token=__CIVITAI__,/workspace/ComfyUI/models/upscale_models/RealESRGAN_x8.pth
+
